@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="tableauEval.css">
+</head>
+
+<body>
+	<h1>Formulaire</h1>
+	<form action="/ma-page-de-traitement" method="post">
+	<div>
+    	<label for="e-mail">e-mail:</label>
+    	<input type="text" id="e-mail" name="e-mail">
+	</div>
+
+	<div>
+    	<label for="pass">Password (8 characters minimum):</label>
+    	<input type="password" id="pass" name="password"
+         minlength="8" required>
+	</div>
+	<div>
+		<label for="Adress">Adress</label>
+		<input type="text" id="Adress" name="Adress">
+
+	</div>
+	<div>
+		<label for="Adress1">Adress1</label>
+		<input type="text" id="Adress1" name="Adress1">
+
+	</div>
+
+	<div>
+		<label for="city">City</label>
+		<input type="text" id="City"   name="City">
+	</div>
+
+	<form action="/ma-page-de-traitement" method="post">
+    
+			<label for="names">state</label>
+	<select>
+			<optgroup label="">
+        	<option></option>
+        	<option></option>
+        	<option></option>
+    </optgroup>
+	</select>
+
+	<div>
+		<label for="zip">zip</label>
+		<input type="text" id="zip" name="zip">
+
+	</div>
+
+
+    <form>
+    	<label>
+ Check me out<input type="radio" name="Check me out" value="Check me out">
+    	</label>    	
+    </form>
+
+ 
+		<input type="submit" value="Sign in">	
+			
+	</form>
+</body>
+</html>
